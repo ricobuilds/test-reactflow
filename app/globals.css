@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Outfit';
+    scroll-behavior: smooth;
+    @apply selection:bg-celuria-400 selection:text-onyx;
+  }
+  * {
+    @apply box-border;
+  }
+  body {
+    @apply bg-onyx text-charkol dark:bg-charkol dark:text-talco;
+  }
+}
